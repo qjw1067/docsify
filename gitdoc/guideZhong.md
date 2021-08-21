@@ -5,6 +5,13 @@
 - master 主干分支  
 主要负责管理正在运行的生产环境代码。永远保持与正在运行的生产环境完全一致。
 
+![](https://cdn.jsdelivr.net/gh/itwanger/toBeBetterJavaer/images/overview/one-01.png)
+![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/gitall.jpg)
+<!-- 文档 -->
+<!-- https://www.jianshu.com/p/4883e95aa903 -->
+<!-- 我的地址 -->
+<!-- https://qjw1067.github.io/docsify/ -->
+
 - develop 开发分支  
 主要负责管理正在开发过程中的代码。一般情况下应该是最新的代码。
 
