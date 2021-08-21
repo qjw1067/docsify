@@ -7,10 +7,8 @@
 
 ![](https://cdn.jsdelivr.net/gh/itwanger/toBeBetterJavaer/images/overview/one-01.png)
 ![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/gitall.jpg)
-<!-- 文档 -->
-<!-- https://www.jianshu.com/p/4883e95aa903 -->
-<!-- 我的地址 -->
-<!-- https://qjw1067.github.io/docsify/ -->
+![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/123.jpg)
+
 
 - develop 开发分支  
 主要负责管理正在开发过程中的代码。一般情况下应该是最新的代码。
@@ -36,3 +34,6 @@
 *注：develop为日常开发分支，推送代码无需发起合并请求*
 
 
+https://www.jianshu.com/p/4883e95aa903
+
+https://qjw1067.github.io/docsify/
