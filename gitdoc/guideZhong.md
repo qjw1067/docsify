@@ -5,9 +5,9 @@
 - master 主干分支  
 主要负责管理正在运行的生产环境代码。永远保持与正在运行的生产环境完全一致。
 
-![](https://cdn.jsdelivr.net/gh/itwanger/toBeBetterJavaer/images/overview/one-01.png)
-![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/gitall.jpg)
-![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/123.jpg)
+<!-- ![](https://cdn.jsdelivr.net/gh/itwanger/toBeBetterJavaer/images/overview/one-01.png) -->
+<!-- ![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/gitall.png) -->
+<!-- ![](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/123.jpg) -->
 
 
 - develop 开发分支  
