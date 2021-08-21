@@ -20,6 +20,7 @@
 
 > SourceTree操作介绍  
 1. 从master上拉取生产环境代码，进行生产环境的bug修复
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master1.png)   
 2. 代码修改并经测试无问题后，拉取master代码更新本地代码库，如有冲突，切勿使用"以我版本为主"进行处理，建议手动处理
 3. 将本地修改的分支推到远程，例如：从master分离出fix分支进行bug修复，测试无误后将本地fix分支推向远程fix分支
 4. 代码发布后，在github网页端发起fix合并master分支的请求
