@@ -19,17 +19,32 @@
 *注：生产环境下出现的紧急修复的代码。需从master分支建立自定义分支，修改完毕并测试上线后，并回主干分支，具体操作如下：*
 
 > SourceTree操作介绍  
-1. 从master上拉取生产环境代码，进行生产环境的bug修复  
-![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master1.png)   
-2. 代码修改并经测试无问题后，拉取master代码更新本地代码库，如有冲突，切勿使用"以我版本为主"进行处理，建议手动处理  
-3. 将本地修改的分支推到远程，例如：从master分离出fix分支进行bug修复，测试无误后将本地fix分支推向远程fix分支  
-![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master2.png)   
+1. 将本地环境切换到master分支，并将拉取远程master分支为最新版本  
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master011.png)   
+
+2. 从本地master分支创建最新修补分支(分支名以1067为例)  
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master012.png)   
+
+3. 修补分支修改后可推到远程，并进行测试
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master013.png)   
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master014.png)       
+
 4. 代码发布后，在github网页端发起fix合并master分支的请求  
 ![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master3.png)   
 ![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master4.png)   
 ![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master5.png)   
 ![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master6.png)   
 ![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/master7.png)   
+
+5. 将修补分支代码合并到develop分支  
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/develop1.png)   
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/develop2.png)   
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/develop3.png) 
+
+6. 删除修补分支    
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/10671.png) 
+![git仓库基本流程](https://cdn.jsdelivr.net/gh/qjw1067/docsify/images/git/10672.png) 
+
 
 
 *注：日常开发规范，以develop分支为例，个人分支以1067分支为例*
