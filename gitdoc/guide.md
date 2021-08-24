@@ -106,3 +106,32 @@ git pull origin 分支名
 
 
 ===========================未完待续=========================
+===========================2021-08-24更=========================
+- ### 远程分支存在，本地使用 git branch -a 查看不到该远程分支
+使用命令
+```
+git fetch --prune origin
+```
+后
+```
+git branch -a
+```
+就可以看到了
+
+- ### 在gitlab上删除分支后，本地git branch -r还能看到
+1. git remote prune --dry-run origin 查看当前有哪些是该消失还存在的分支
+2. git remote prune origin 删除上面展示的所有分支
+3. git fetch --prune origin
+
+- ### git分支重命名
+1. 创建新的分支
+```
+git branch test
+git branch --list
+```
+2. 重命名
+```
+git branch -m test  test1
+git branch --list
+```
+3. 就可以看到分支重命名成功了
